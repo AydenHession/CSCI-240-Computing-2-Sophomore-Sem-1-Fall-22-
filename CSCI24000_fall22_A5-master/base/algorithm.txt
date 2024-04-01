@@ -1,0 +1,14 @@
+Goals: The goal for this program is to run to read the numbers from a the line preceding a string, add the numbers together and print the word the number of times equal to the sum of the three numbers above it.
+
+Input: for this program there is no input from the user, the only input comes when making the input.txt file which is where, beforehand, the user could put numbers and strings to be printed out in the output file. 
+
+Output: the out put of this could will be the 5 different strings printed the number of times of the sum of numbers above it in the input.txt file.
+
+Steps:
+1- the program need to open both the input file and create the output file
+2- immediately, the close commands for the input and output files are added at the end of the function to ensure that these do not go missed. 
+3- a loop should be ran checking if there are unempty lines in the input.txt file
+4- while there is lines to be read in the input.txt files it should check if there are ","s in the file and then add the numbers that are spaced between the commas. those numbers need to be stored into a temporary variable and then used later in a for loop to print the string below it int the output.txt file that number of times
+5. if the line has no commas if will be copied into a temp string.
+6- the string will then be printed with a loop the number of times as the sum above it, with commas separating each value.
+7-steps 4 to 6 will be repeated until the loop made in step 3

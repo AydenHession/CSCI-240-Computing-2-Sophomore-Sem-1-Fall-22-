@@ -1,0 +1,20 @@
+1. I wanted to begin trying to code with the same hello world text in a different language that I didn't know.
+I am familiar with C, since I am a Computer Engineering Major, and I have heard that java is closely related to C. I have also heard that java is much more user friendly, so I wanted to create the HelloWorld file in java. And since the majority of the CS majors in the classroom know python, i wanted to try and write the HelloWorld program in python.
+
+2. Starting, I looked back at my helloworld.c program code and gathered the basics of what it was, I just needed to know how to write a main function and how to print in both java and python. So i started by googling "how to declare a function in java" and did a similar thing with java. From there looked up how to do print statements for both.
+
+3. One thing that reallllly threw me for a loop was the fact that PYTHON USES COLONS INSTEAD OF SEMICOLON, python really looks far different than C. I found that it was easy to read and understand, but a lot of what I was seeing was confusing me. It also appeared that function declaration begins with "def" still not entirely certain if that is the case.
+
+4. Java is somehting I could see myself actually using for code, I apprecriate the fact that semicolons are used. I was doing more reading and found that the declarations at the start of the code, such as the standard "#include <stdio.h> for C was not needed, and many of the functions are set in. Which seems so logical and helpful, even if it is techincally using up extra storage space on the computer. I did notice that there is a very common "public class" and then the string "public static void main(String[] args)" for every code... I'm actually very confused on what exactly this does. But every piece of written code I found for java had the "stringp[] args" so im assuming it is a critical part of having a functioning Main funciton.
+
+5. Once I found these, I googled the declaration for the file types, and then attempted to write out both pieces of code
+
+6. After writing the java code, i feel confident that it would actually execute when compiling. Everthing I've seen online for python leads me to believe that if I just put "print ('Hello World') in the .py file that it would work...... but IT JUST SEEMS TOOOO SIMPLE, but python also feels simple, so I am assuming that it works. If the future blackbelt assignments are for a different language, I believe I will continue to attempt to code in java, as it feels comfortable but still a bit different. Python is toooo high of a language for me to understand.
+
+7. Now, with both of the codes written. I will begin to watch a youtube video in hopes of understanding what BASH is since I do not know what it means as of now
+
+8. For the experimenting with git, I was hesitant to begin experimenting with the files I stored for this project. So, i went on youtube and found a video by "The Net Ninja" that went over merging branches and he made deliberate errors in the video to demonstrate how to resolve issues. I opted for this, in fear that I would lose my work. While I know that it is reliable and i can restore what I've lost. I would like for that to be only done as a saving grace. Since in class he showed us that we can accidentally permanently delete files and I didn't want to shatter the progress.. 
+
+9. for the bash, I just looked up basic commands and how to run them, the excutables make sense, logically i can see how scripts could be made using this. The "problem" i was solving was not wanting to type as much, so I printed a longer paragraph and just had the executable run "bash REPEAT.sh" and then it echo'd the message. This could be helpful if i were to pirate the entire harry potter book series, and wanted to be able to summon the entire text with a quick "bash HPbook1.sh" instead of going online and going through a bunch of loops. 
+
+10. .

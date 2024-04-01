@@ -1,0 +1,28 @@
+Goals::
+
+Goal is to run a horse race with a random coin flip chance that that a horse moves foraward
+
+Input:
+
+THe function accepts integers for the seed and then has ENTER values to continue the race
+
+Outputs: When I wrote it and compiled it through VS code i was able to get a working horserace, I tried online compilers and I got a working output.
+
+When retyping it here it doesn't compile correctly.
+
+STEPS:
+
+First, I needed the horses and their tracks definied in a string.So, i made 5 global character arrays for the horses. 
+
+I knew i would need a swap function, so that was added. I needed to find the location to swap, so i made a function to locate the digit representing the horse in the array to be the location to swap. this way the horse could progress forward. Did this by running a loop searching for a digit, and setting the number of times parsed through the loop for the index of the horse in the array.
+
+I needed global variables at this point to store the indexes of each horse, so those are added.
+
+Once the horse is at the last part of the array, index 14, they have won, so a fucntion is made to call and announce a horse as winner if their index is 14. 
+
+I needed finally a fucntion to manage each turn. In each turn the horses needed a random chance of moving forward. Set a rand() to be modded by 2 to give 0 or 1. this way it is 50/50 odd of moving or not. Variables are set for the roll of each horses coin toss. if the roll lands on 1 then they move forward, so the if statements that a follow check if the roll = .1 if it does the horse needs to be swapped foward.
+
+Now, if a horse hits 14 the race needs to end. So the turn function will be put into a loop checking if the race is finished. The race is finished if any horse hits an index of 14, so an if statement is set up doiung this with a global boolean variable checking for finished set to false. The loop will run until the finished variable is true.
+
+once it is true, the last thing to be added to the main is the winner() function to announce the winner of the race. 
+
